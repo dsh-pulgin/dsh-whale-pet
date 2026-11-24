@@ -1,0 +1,19 @@
+# Keep the repository line endings stable across Windows/Linux checkouts.
+* text=auto
+
+# Artwork and screenshots must never be line-ending converted.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+
+# Source and docs stay LF so diffs are consistent.
+*.js text eol=lf
+*.cjs text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+*.svg text eol=lf
+*.ps1 text eol=crlf
